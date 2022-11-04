@@ -1,8 +1,8 @@
+import Part from './Part';
+
 const Content = (props) => {
   return (
-    props.parts.map((part) => {
-      return <p>{part.title} {part.exercises}</p>
-    })
+    props.parts.map((part) => <Part title={part.title} exercises={part.exercises} />)
   );
 }
 
