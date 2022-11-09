@@ -3,29 +3,32 @@ import Content from './components/Content';
 import Total from './components/Total';
 
 const App = () => {
-  const course = 'Half Stack application develoment';
+  const course =  {
+    name: 'Half Stack application develoment',
+    parts: [
+      {
+        name: 'Fundamentals of React',
+        exercises: 10,
+      },
+      {
+        name: 'Using props to pass data',
+        exercises: 7,
+      },
+      {
+        name: 'State of a component',
+        exercises: 14,
+      }
+    ],
+  };
+  
 
-  const parts = [
-    {
-      name: 'Fundamentals of React',
-      exercises: 10,
-    },
-    {
-      name: 'Using props to pass data',
-      exercises: 7,
-    },
-    {
-      name: 'State of a component',
-      exercises: 14,
-    }
-  ];
   return (
     <div>
-      <Header course={course} />
+      <Header course={course.name} />
 
-      <Content parts={parts} />
+      <Content parts={course.parts} />
       
-      <Total total={parts.reduce((sum, n) => sum+=n.exercises, 0)} />
+      <Total total={course.parts.reduce((sum, n) => sum+=n.exercises, 0)} />
     </div>
   );
 }
