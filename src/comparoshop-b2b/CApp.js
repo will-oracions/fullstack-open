@@ -1,6 +1,8 @@
 import React from 'react';
+import Home from './pages/Home';
 
 const CApp = ()  => {
+    return <Home />
     return <div>
         <h1 className="text-green-500">Welcome to Comparoshop B2B!!</h1>
 
