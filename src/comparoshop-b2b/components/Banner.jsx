@@ -5,7 +5,7 @@ import * as styles from '../utils/tailwind.styles';
 const Banner = () => {
     return <div>
 			<div className="flex items-center">
-				<div class="px-16 flex-1 max-w-[500px]">
+				<div className="px-16 flex-1 max-w-[500px]">
 					<h2 className="text-3xl font-bold">
 						<span className="text-[#0064b0]">Automatiser</span> et <span  className="text-[#0064b0]">optimiser</span> vos processus de publication
 					</h2>
