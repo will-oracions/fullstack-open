@@ -3,7 +3,8 @@ import * as styles from '../utils/tailwind.styles';
 
 const Navbar = () => {
     return <>
-			<div className="px-16 flex justify-between items-center h-20 shadow-md">
+		<div className={`shadow-md`}>
+			<div className={`${styles.container} px-16 flex justify-between items-center h-20`}>
 					<div>
 						Logo Comparoshop
 						{/* <img src={logo} alt="comparoshop logo" /> */}
@@ -21,6 +22,7 @@ const Navbar = () => {
 						<button className={`${styles.btnOutlineRounded} rounded-full`}>Se connecter</button>
 					</nav>
 				</div>
+		</div>
     </>
 }
 

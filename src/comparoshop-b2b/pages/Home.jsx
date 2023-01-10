@@ -11,7 +11,8 @@ import Footer from '../components/footer';
 import PartenersSection from '../components/parteners';
 
 const Home = () => {
-    return <div id="page" className="max-w-screen-2xl mx-auto">
+	// className="max-w-screen-2xl mx-auto"
+    return <div id="page" >
 			<header>
 				<Topbar />
 				<Navbar />
