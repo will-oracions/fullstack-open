@@ -12,7 +12,7 @@ const Banner = () => {
 
 					<p className="text-gray-400 my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit quae, itaque doloremque provident eum ea cupiditate rerum ab </p>
 					
-					<button className={styles.btnOutlineFilled}>Nous joundre</button>
+					<button className={`${styles.btnOutlineFilled} rounded-full`}>Nous joundre</button>
 				</div>
 
 				<div className="flex-1 bg-[#fff1db] h-[35rem] flex items-center">

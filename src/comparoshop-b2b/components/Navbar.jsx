@@ -18,7 +18,7 @@ const Navbar = () => {
 							<li className="mr-2">Contacts</li>
 						</ul>
 
-						<button className={styles.btnOutlineRounded}>Se connecter</button>
+						<button className={`${styles.btnOutlineRounded} rounded-full`}>Se connecter</button>
 					</nav>
 				</div>
     </>
