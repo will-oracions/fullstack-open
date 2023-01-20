@@ -3,8 +3,8 @@ import courseImage from '../assets/course-image.svg';
 function TrainingsItem() {
     return <>
         <div className="m-4 cursor-pointer">
-            <div className="w-[367px] h-[194px] rounded-[20px] overflow-hidden">
-                <img className="w-full h-full object-cover" src={courseImage} alt="training poster" />
+            <div className="w-[367px] h-[194px] bg-black rounded-[20px] border border-white overflow-hidden">
+                <img className="w-full h-full object-cover opacity-80  hover:opacity-100" src={courseImage} alt="training poster" />
             </div>
 
             <div className="w-[367px]">
