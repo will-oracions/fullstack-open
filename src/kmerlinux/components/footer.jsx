@@ -7,8 +7,8 @@ import arrowRight from '../assets/icons/arrow-right.svg';
 
 function Footer() {
     return <>
-        <div>
-            <div className="relative bg-[#2A3E52] text-white h-[582px] flex justify-between items-start p-24">
+        <div className="bg-[#2A3E52]">
+            <div className="max-w-screen-2xl mx-auto relative text-white h-[582px] flex justify-between items-start p-24">
                 <img className="absolute left-0 right-0 z-10" src={africa} alt="Africa" />
                 <div className="relative z-20">
                     <img className="h-[85px] w-auto" src={kmerlinuxLogo} alt="Kmerlinux logo" />
